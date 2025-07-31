@@ -1,0 +1,133 @@
+
+
+header {
+    color: #0db88f;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #FFFFFF;;
+}
+
+body {
+    margin: 0;
+    background-image: url('../background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120vh;
+}
+
+.paragraphe {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 0px;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.soustitre {
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.formulaire {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.left {
+  background-color: #FFFFFF;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 300px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 30px;
+}
+
+.left button {
+    width: 100%;
+    padding: 10px;
+    background-color: #38b2ac;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.voyages {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1px;
+}
+
+#departure {
+    margin-top: 10px;
+    font-size: 18px;
+    background-color: #f7f7f7f5;
+    border-radius: 1px;
+    border: none;
+    padding: 10px;
+}
+
+#arrival {
+    margin-top: 10px;
+    font-size: 18px;
+    background-color: #f7f7f7f5;
+    border: none;
+    border-radius: 1px;
+    padding: 10px;
+}
+
+#date {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #f7f7f7f5;
+    border: none;
+}
+
+#searchBtn {
+    margin-top: 150px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.right {
+  background-color: #FFFFFF;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(19, 132, 62, 0.1);
+  width: 300px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+#results {
+    font-size: 18px;
+    font-family: sans-serif;
+
+}
